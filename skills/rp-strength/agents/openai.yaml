@@ -1,0 +1,4 @@
+interface:
+  display_name: "RP Strength"
+  short_description: "Own the user's hypertrophy training record"
+  default_prompt: "Use $rp-strength to review my training sheet and plan my next workout."

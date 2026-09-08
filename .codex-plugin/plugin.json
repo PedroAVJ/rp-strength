@@ -1,0 +1,41 @@
+{
+  "name": "rp-strength",
+  "version": "0.1.2",
+  "description": "Own the user's gym and hypertrophy-training workflow through the configured training Google Sheet.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/rp-strength",
+  "repository": "https://github.com/PedroAVJ/rp-strength",
+  "license": "MIT",
+  "keywords": [
+    "hypertrophy",
+    "gym",
+    "strength",
+    "workout"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RP Strength",
+    "shortDescription": "Own the user's hypertrophy training record",
+    "longDescription": "Route workout planning, progress review, and gym-session updates through the user's configured private training Google Sheet without pretending that a commercial RP Hypertrophy app integration exists.",
+    "developerName": "PedroAVJ",
+    "category": "Health",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/PedroAVJ/rp-strength",
+    "defaultPrompt": [
+      "Review my current training sheet",
+      "Plan my next hypertrophy workout",
+      "Record today's gym session"
+    ],
+    "brandColor": "#000000",
+    "composerIcon": "./assets/rp-strength-icon.svg",
+    "logo": "./assets/rp-strength-icon.svg",
+    "screenshots": []
+  }
+}

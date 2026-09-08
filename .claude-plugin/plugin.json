@@ -1,0 +1,22 @@
+{
+  "name": "rp-strength",
+  "version": "0.1.2",
+  "description": "Own the user's private gym and hypertrophy-training workflow through the configured training Google Sheet.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/rp-strength",
+  "repository": "https://github.com/PedroAVJ/rp-strength",
+  "license": "MIT",
+  "keywords": [
+    "hypertrophy",
+    "gym",
+    "strength",
+    "workout"
+  ],
+  "skills": "./skills/",
+  "dependencies": [
+    "google-drive@package-manager"
+  ]
+}
