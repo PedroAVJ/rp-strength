@@ -1,6 +1,6 @@
 {
   "name": "rp-strength",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Own the user's gym and hypertrophy-training workflow through the configured training Google Sheet.",
   "author": {
     "name": "PedroAVJ",
@@ -21,7 +21,7 @@
     "shortDescription": "Own the user's hypertrophy training record",
     "longDescription": "Route workout planning, progress review, and gym-session updates through the user's configured private training Google Sheet without pretending that a commercial RP Hypertrophy app integration exists.",
     "developerName": "PedroAVJ",
-    "category": "Health",
+    "category": "Health & Fitness",
     "capabilities": [
       "Interactive",
       "Read",

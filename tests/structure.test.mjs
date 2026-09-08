@@ -7,7 +7,7 @@ import test from "node:test";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const expected = {
   name: "rp-strength",
-  version: "0.1.2",
+  version: "0.1.3",
   url: "https://github.com/PedroAVJ/rp-strength",
 };
 
@@ -29,7 +29,7 @@ test("plugin metadata and ownership stay synchronized", async () => {
   assert.equal(codex.repository, expected.url);
   assert.equal(claude.homepage, expected.url);
   assert.equal(claude.repository, expected.url);
-  assert.equal(codex.interface.category, "Health");
+  assert.equal(codex.interface.category, "Health & Fitness");
   assert.equal(codex.interface.brandColor, "#000000");
   assert.equal(codex.interface.composerIcon, "./assets/rp-strength-icon.svg");
   assert.equal(codex.interface.logo, "./assets/rp-strength-icon.svg");
